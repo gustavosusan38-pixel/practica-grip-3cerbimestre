@@ -1,0 +1,21 @@
+.wrapper{
+    display: grid;
+}
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+border: 2px solid;
+border-radius: 5px;
+background-color: aqua;
+}
+.wrapper > div{
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: brown;
+    padding: 1em;
+
+}
+.wrapper{
+    grid-template-columns: 500px 1fr 2fr ;
+}
